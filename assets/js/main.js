@@ -9,7 +9,7 @@
   // Only redirect on production (HTTP/HTTPS) when the visitor is not a bot,
   // has no internal referrer and isn’t on the home page.
   if (!isBot && !isLocal && noRef && !isHome) {
-    location.replace('https://santragsm.paulsumit.com/');
+   // location.replace('https://santragsm.paulsumit.com/');
   }
 })();
 
